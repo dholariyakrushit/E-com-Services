@@ -1,0 +1,12 @@
+// FETCH Data
+// ADD to Cart
+export enum ActionType {
+  FETCH_POST_START = "FETCH_POST_START",
+  FETCH_POST_SUCCESS = "FETCH_POST_SUCCESS",
+  FETCH_POST_FAIL = "FETCH_POST_FAIL",
+  ADD_TO_CART = "ADD_TO_CART",
+  REMOVE_TO_CART = "REMOVE_TO_CART",
+}
+
+// export const ADD_TO_CART = "ADD_TO_CART";
+// export const REMOVE_TO_CART = "REMOVE_TO_CART";
